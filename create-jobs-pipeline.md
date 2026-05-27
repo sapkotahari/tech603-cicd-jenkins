@@ -39,7 +39,7 @@
 
 
 
-   ![alt text](../images/success-job-console.png)
+   ![alt text](images/success-job-console.png)
 
 
 ## Link first with second project
@@ -50,7 +50,7 @@
 4. Select *Trigger only if build is stable*
 5. Save
 
-![alt text](../images/linking-jobs.png)
+![alt text](images/linking-jobs.png)
 
 
 # 3-job CI/CD Pipeline
@@ -68,7 +68,7 @@
 4. Key: In local Terminal, print your **public key** (`cat ~/.ssh/hari-jenkins-to-github-key.pub`, then copy-paste the key into the key box in GitHub account (see the image below).
 5. Check *Allow write access*
 
-    ![alt text](../images/add-jenkins-to-github-key.png)
+    ![alt text](images/add-jenkins-to-github-key.png)
 
 
 ### 2. Set up webhook
@@ -94,7 +94,7 @@ Go to GitHub > Repo settings > Webhooks > Payload URL:
    1. Choose *Git* and paste the **SSH URL** for your GitHub repo (get it from you GitHub account)
    3. As soon as you add the URL, you will see Permissions error message (see below). This is because you haven't added the credentials yet!
 
-      ![alt text](../images/scm-ssh-url.png)
+      ![alt text](images/scm-ssh-url.png)
 
    4. Just below the error message, there is a *Credentials* drop-down list, and an *Add* option. You need to add credentials before it appears in the drop-down list.
    5. Click *Add* > *Jenkins*. Here, you add the **private key** from your "jenkins-to-github key"
@@ -110,7 +110,7 @@ Go to GitHub > Repo settings > Webhooks > Payload URL:
          *  Passphrase: Not required
          * Click *Add*
   
-             ![alt text](../images/credentials-added.png)
+             ![alt text](images/credentials-added.png)
    7. Branches to build: */dev
 6. **Build Triggers:** Check GitHub hook trigger for GITScm polling
 7. **Build Environment:**
@@ -233,9 +233,9 @@ Make required changes to the app code in your local *dev* branch and push to rem
 
 **First run:**
 
-![alt text](<../images/CICD - Before.png>)
+![alt text](<images/CICD - Before.png>)
 
 **Second run:**
 
-![alt text](<../images/CICD - After.png>)
+![alt text](<images/CICD - After.png>)
 
