@@ -1,3 +1,15 @@
+
+- [Intro to CI/CD and Jenkins](#intro-to-cicd-and-jenkins)
+  - [What is CI? Benefits?](#what-is-ci-benefits)
+  - [What is CD? Benefits?](#what-is-cd-benefits)
+  - [What is Jenkins?](#what-is-jenkins)
+  - [Benefits and Disadvantages](#benefits-and-disadvantages)
+  - [Stages of Jenkins CICD Pipeline](#stages-of-jenkins-cicd-pipeline)
+  - [Alternatives to Jenkins](#alternatives-to-jenkins)
+  - [Business Value of implementing a CICD Pipeline](#business-value-of-implementing-a-cicd-pipeline)
+  - [Implementing CICD Pipeline with Jenkins](#implementing-cicd-pipeline-with-jenkins)
+
+
 # Intro to CI/CD and Jenkins
 
 ## What is CI? Benefits?
