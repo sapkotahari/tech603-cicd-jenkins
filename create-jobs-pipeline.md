@@ -75,7 +75,7 @@
 
 Go to GitHub > Repo settings > Webhooks > Payload URL:
 
->http://52.31.15.176:8080/github-webhook/ (IP of the Junkins server with port 8080)
+>http://public-ip-jenkins-server:8080/github-webhook/
 
 ## Create a project (Job 1) in Jenkins (CI - Test)
 
